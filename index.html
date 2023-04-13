@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TJHELPERS</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="navbar_links">
+        <li class="nav_item active" id="home">
+          <a class="nav_link" href="#">
+            Home 
+          </a>
+        </li>
+        <li class="nav_item" id="courses">
+          <a class="nav_link" href="#">
+            Courses
+          </a>
+        </li>
+        <li class="nav_item" id="about_us">
+          <a class="nav_link" href="#">
+            About Us
+          </a>
+        </li>
+        <li class="nav_item" id="contact_us">
+          <a class="nav_link" href="#">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main_content">
+    <section class="home page">
+      <h1 class="home_title">Welcome to StudyLab</h1>
+      <div class="home_content">
+        <p class="home_txt">
+          &nbsp;&nbsp; This lab is a good place to start if you want to become a scientist.
+        </p>
+        <p class="home_txt">
+          &nbsp;&nbsp; You will learn about our science laboratory
+          get a general understanding of the basic sciences.
+         After that, you will choose courses of subjects that you like. 
+        </p>
+        <h4 class="home_txt home_list_title">
+          &nbsp;&nbsp; The courses are divided into the following categories:
+        </h4>
+        <ul class="home_txt">
+          <li class="home_list">
+            Historical sciences
+          </li>
+          <li class="home_list">
+            Journalistic sciences and literature
+          </li>
+          <li class="home_list">
+            Philosophy and psychology
+          </li>
+          <li class="home_list">
+            Finance and Credit
+          </li>
+          <li class="home_list">
+            Programming and engineering
+          </li>
+          <li class="home_list">
+            Sciences
+          </li>
+        </ul>   
+        <button class="home_button">
+          Let's start
+        </button>
+      </div>
+    </section>
+    <section class="courses page">
+      <div class="courses_table_container">
+        <form class="courses_table_form">
+          <div>
+            <p class="radio_title">Please choose the type of Education:</p>
+            <div class="radio_form">
+              <div>
+                <input type="radio" name="degree" id="Bachelor degree" class="courses_type"> 
+                <label for="Bachelor">Bachelor's degree</label>
+              </div>
+              <div>
+                <input type="radio" name="degree" id="Master degree" class="courses_type">
+                <label for="Master">Master's degree</label>
+              </div>
+            </div>
+          </div>
+          <div class="selector">
+            <label for="selector" class="selector_label">Please choose category of courses:</label>
+            <select name="selector" class="selectorList">
+              <option value="selectValue">Select value</option>
+              <option value="Historical">Historical</option>
+              <option value="Scientific">Scientific</option>
+              <option value="Humanitarian">Humanitarian</option>
+            </select>
+          </div>
+        </form>
+        <div class="courses_table">
+          <table class="table">
+            <tr class="table_header">
+              <td>
+                Facultet
+              </td>
+              <td>
+                Subject
+              </td>
+              <td>
+                Degree
+              </td>
+              <td>
+                Description
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="about_us page">
+      <div class="about_us_content">
+        <p class="home_txt">
+          &nbsp; &nbsp;The Project Access UK Undergraduate Program is a free mentorship 
+          program helping less privileged students apply for Bachelor's degrees at leading UK universities.
+        </p>
+          <br>
+        <p class="home_txt">
+          &nbsp; &nbsp;When you join the program you will be paired with a mentor who studies at your dream university and guides you through the 
+          application process. Your mentor will give you 1-1 advice on picking the right course and university for you, personal statements, 
+          references, interviews, and all other aspects of your UCAS application. You will also get access to our collection of resources for 
+          all steps of the application and join an awesome community of inspiring applicants from all around the world. 
+        </p>
+          <br>
+        <p class="home_txt">
+          &nbsp; &nbsp;Sounds good? Then apply today for free or read on to find out more about the program and your eligibility!
+        </p>
+      </div>
+    </section>
+    <section class="contact_us page">
+      <table class="contact_table">
+        <tr class="contact_table_row">
+          <td class="contact_table_col">
+            Historycal faculty:
+          </td>
+          <td class="contact_table_col">
+            Andriy Oleksandrovych
+          </td>
+          <td class="contact_table_col">
+            123-456-7890
+          </td>
+        </tr>
+        <tr class="contact_table_row">
+          <td class="contact_table_col">
+            Scientific faculty:
+          </td>
+          <td class="contact_table_col">
+            Alex Demchyk
+          </td>
+          <td class="contact_table_col">
+            123-456-7891
+          </td>
+        </tr>
+        <tr class="contact_table_row">
+          <td class="contact_table_col">
+            Programing faculty:
+          </td>
+          <td class="contact_table_col">
+            David Horvel
+          </td>
+          <td class="contact_table_col">
+            123-456-7892
+          </td>
+        </tr>
+        <tr class="contact_table_row">
+          <td class="contact_table_col">
+            Arts faculty:
+          </td>
+          <td class="contact_table_col">
+            Steven Gerrard
+          </td>
+          <td class="contact_table_col">
+            123-456-7893
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/"><img class="icon social-instagram" src="img/icon-instagram.svg" alt="instagram icon"></i></a>
+        <a href="https://twitter.com/?lang=en"><img class="icon social-twitter" src="img/icon-twitter.svg" alt="twitter icon"></i></a>
+        <a href="https://www.facebook.com/"><img class="icon social-facebook" src="img/icon-facebook.svg" alt="facebook icon"></i></a>
+      </div>
+      <p class="copyright">StudyLab © 2023</p>
+    </footer>
+  </main>
+ 
+  <script src="index.js"></script>
+</body>
+</html>
